@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     background-color: #722F37;
     width: 100%;
     height: 250px;
@@ -13,63 +13,80 @@ header{
     justify-content: center;
 }
 
-ul{
+header ul {
+    list-style: none;
     display: flex;
+    flex-direction: row;
     gap: 35px;
 }
 
-li{
-    list-style: none; 
-}
 
-a{
-    color:#EFDFBB;
+a {
+    color: #EFDFBB;
     font-size: 46px;
     font-style: bold;
     text-decoration: none;
 }
 
-main{
+main {
     background-color: #EFDFBB;
     height: auto;
 }
 
-h1{
+h1 {
+    align-items: center;
+    justify-content: center;
     color: #722F37;
     font-size: 64px;
-    padding-left: 610px;
+    padding: 35px;
 }
 
-#recipeOne{
-
-section{
+#recipeOne {
     display: flex;
     flex-direction: row;
 }
 
-
 img {
     padding: 30px;
     background-color: #722F37;
-    width: 500px; 
-    height: 500px; 
+    width: 500px;
+    height: 500px;
     border-radius: 10px;
     margin: 50px;
-    
 }
 
-h2{
-   padding: 10px;
-   font-size: 32px;
-   margin: 10px;
+h2 {
+    padding: 10px;
+    font-size: 32px;
+    margin: 10px;
 }
 
 ul {
-    padding: 50px;
+    padding: 100px;
     margin: 10px;
     font-size: 32px;
     display: contents;
     flex-direction: column;
 }
 
+ol {
+    list-style-type: decimal;
+    padding: 30px;
+    margin: 10px;
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+
+#recipeTwo {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+
+}
+
+.div-rightTwo {
+    align-items: center;
 }
