@@ -54,7 +54,8 @@ form{
 
     gap: 10px;
 
-    margin-bottom: 300px;
+    margin-bottom: 130px;
+
     
 }
 
@@ -105,7 +106,10 @@ button{
       
 }
 
-
+.store-img{
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
 
 
 footer{
