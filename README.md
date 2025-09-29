@@ -92,14 +92,14 @@ O arquivo `README.md` deve conter:
 
 ## 🧪 Critérios de Avaliação
 
-| Critério                         | Pontuação |
-|----------------------------------|-----------|
-| Estrutura do site (organização) | 20 pts    |
-| Estética e organização visual   | 20 pts    |
-| Qualidade do código HTML/CSS    | 20 pts    |
-| Conteúdo e aplicação dos recursos | 20 pts  |
-| Trabalho em equipe / commits     | 20 pts    |
-| **Total**                        | **100 pts** |
+| Critério                          |  Pontuação  |
+|-----------------------------------|-------------|
+| Estrutura do site (organização)   | 20 pts      |
+| Estética e organização visual     | 20 pts      |
+| Qualidade do código HTML/CSS      | 20 pts      |
+| Conteúdo e aplicação dos recursos | 20 pts      | 
+| Trabalho em equipe / commits      | 20 pts      |
+| **Total**                         | **100 pts** |
 
 ---
 
