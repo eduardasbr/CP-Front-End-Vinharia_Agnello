@@ -32,6 +32,7 @@ a{
 main{
     background-color: #EFDFBB;
     height: auto;
+    padding-bottom: 50px;
 }
 
 img {
@@ -63,13 +64,13 @@ img {
     border-radius: 15px;
 }
 
-#tour {
+#section_title {
     text-align: center;
     font-size: 40px;
     color: #EFDFBB;
 }
 
-#tour_box {
+#section_box {
     background-color: #722F37;
     width: 470px;   
     height: 105px;
@@ -80,18 +81,40 @@ img {
 }
 
 #tour_grid {
-    display: grid;
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 20px;
+}
+
+table {
+    width: 100%;
+    padding: 5%;
+}
+
+td {
+    border: 1px solid #722F37;
+    color: #EFDFBB;
+    background-color: #722F37;
+    padding: 15px;
+    font-size: 46px;
+}
+
+table img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
 }
 
 p {
     width: 800px;
-    font-size: 32px;
+    font-size: 46px;
 }
 
 video {
     width: 800px;
-    height: 600px;
 }
 
 footer{
@@ -154,3 +177,4 @@ footer img{
 }
 
 
+1
