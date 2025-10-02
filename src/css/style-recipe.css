@@ -91,6 +91,15 @@ ol {
     align-items: center;
 }
 
+.div-more-recipe{
+    margin-left: 50px;
+}
+
+h6{
+    padding-bottom: 50px;
+}
+
+
 footer{
     background-color: #722F37;
     height: auto;

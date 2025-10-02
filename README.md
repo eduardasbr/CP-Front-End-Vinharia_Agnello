@@ -1,125 +1,46 @@
-# CP-Front-End---Vinharia-Agnello
+# 🍷Vinheria Agnello🍷
 
-# ✅ Check-Point – Projeto em Grupo: Site da Vinharia Agnello
+# 🍷 Caso da Vinheria Agnello  
 
-## 🧠 Descrição
+A **Vinheria Agnello** é um caso fictício desenvolvido para fins acadêmicos, inspirado em uma vinheria tradicional de São Paulo com mais de 15 anos de história.  
+O desafio central é a transformação digital do negócio, trazendo a experiência única e personalizada de atendimento da loja física para o mundo do **e-commerce**.  
 
-A equipe (de até 5 pessoas) deverá desenvolver um site com base no **caso da Vinharia Agnello**, aplicando os conhecimentos aprendidos até agora. O projeto deverá conter conteúdo organizado, boa estrutura HTML, elementos visuais, e aplicação de estilos com CSS.
+📌 **Principais pontos do case:**  
+- Tradição familiar e atendimento especializado no mundo dos vinhos.  
+- Impacto da pandemia e a necessidade de adaptação ao digital.  
+- Criação de um site de vendas online focado em **experiência do usuário**.  
+- Uso de métodos ágeis para o desenvolvimento do projeto.  
 
----
+> Este projeto foi adaptado a partir do livro *Gestão Ágil de Projetos de Design* (Editora IESDE), e é utilizado como referência para estudos em Engenharia de Software.  
 
-## 📌 Requisitos do Projeto
+## 📂 Estrutura do Projeto
 
-- O site deve conter **pelo menos 5 páginas HTML** diferentes.
-- A página principal será o `index.html`, com **4 páginas adicionais** de livre escolha (ex: história, produtos, contato, galeria, equipe etc.).
-- O conteúdo deve incluir:
-  - Textos descritivos
-  - Imagens
-  - Links internos e externos
+O site da **Vinheria Agnello** foi pensado para oferecer uma experiência digital completa, mantendo a tradição e o atendimento personalizado da loja física.  
+A seguir, uma visão geral das páginas do projeto:
 
----
+- 🏠 **Página Inicial**  
+  Contém imagens e vídeos da vinheria, além de uma tabela de clientes, trazendo a atmosfera da loja física para o ambiente online.  
 
-## 🔧 Itens obrigatórios
+- 🍷 **Página de Produtos**  
+  Catálogo interativo de vinhos nacionais e importados, com opções detalhadas para compra e comparação.  
 
-### 📄 Estrutura HTML
-- Uso de **headings** (`h1` a `h6`) e **parágrafos**
-- Pelo menos uma **lista** (`ul` ou `ol`)
-- Pelo menos uma **tabela HTML**
-- Um **formulário de contato** com:
-  - `input` para nome e e-mail
-  - `textarea` para mensagem
-  - `button` de envio
-  - Uso de `label` associado aos campos
+- 👨‍🍳 **Página de Receitas**  
+  Sugestões de pratos harmonizados com vinhos, ensinando combinações perfeitas para diferentes ocasiões.  
 
-### 🌐 HTML Semântico e SEO
-- Uso de **tags semânticas**: `header`, `main`, `nav`, `footer`, `section`, etc.
-- Inserção de **meta tags** no `<head>`:
-  - `meta keywords`
-  - `meta description`
+- 📖 **Página Sobre Nós**  
+  Conta a história da família Agnello, seus funcionários e a tradição de mais de 15 anos no mundo dos vinhos.  
 
-### 🎨 CSS
-- Uso de **classes e ids**
+- ✉️ **Página de Contato**  
+  Formulário dedicado ao envio de dúvidas, sugestões e feedbacks, aproximando ainda mais os clientes da vinheria.  
 
-### 📷 Multimídia
-- Pelo menos uma **imagem** por página
-- Um **vídeo** inserido (pode ser do YouTube)
+## 👥 Integrantes do Projeto
 
-### 🧭 Navegação
-- Menu de navegação funcional presente em todas as páginas
-- Links internos e externos funcionando corretamente
+- **Eduarda da Silva Brito**  
+- **Gustavo Castilho Gonçalves**  
+- **Lucca Ghiraldi Urso**  
 
----
+## 🌐 Acesse o Projeto Online  
 
-## 📁 Estrutura esperada do projeto
+O site da **Vinheria Agnello** também está disponível através do GitHub Pages:  
 
-```css
-vinharia-agnello/
-│
-├── index.html
-├── README.md
-├── src/
-│   ├── assets/
-│   │   └── imgs/
-│   ├── css/
-│   │   └── style.css
-│   └── pages/
-│       ├── pagina1.html
-│       ├── pagina2.html
-│       ├── ...
-```
----
-
-## 📄 README.md
-
-O arquivo `README.md` deve conter:
-- Nome do projeto
-- Breve descrição do caso da Vinharia Agnello
-- Estrutura do projeto (explicação das páginas)
-- Nome dos integrantes
-- Link para o site publicado no GitHub Pages
-
----
-
-## 👥 Regras de Colaboração
-
-- Máximo de **5 integrantes por grupo**
-- Cada integrante deve fazer **no mínimo 2 commits**
-- Entrega via **Teams** com:
-  - Link do repositório no GitHub
-  - Link do site publicado no **GitHub Pages**
-
----
-
-## 🧪 Critérios de Avaliação
-
-| Critério                          |  Pontuação  |
-|-----------------------------------|-------------|
-| Estrutura do site (organização)   | 20 pts      |
-| Estética e organização visual     | 20 pts      |
-| Qualidade do código HTML/CSS      | 20 pts      |
-| Conteúdo e aplicação dos recursos | 20 pts      | 
-| Trabalho em equipe / commits      | 20 pts      |
-| **Total**                         | **100 pts** |
-
----
-
-## ✅ Dica: use esse checklist!
-
-- [ ] 5 arquivos HTML criados
-- [ ] index.html com navegação para as demais páginas
-- [ ] Heading tags e parágrafos aplicados
-- [ ] Lista (ul ou ol) usada em pelo menos uma página
-- [ ] Tabela HTML com conteúdo relevante
-- [ ] Formulário com input, textarea e botão
-- [ ] Tags semânticas aplicadas corretamente
-- [ ] Meta tags (`keywords`, `description`) em cada página
-- [ ] Estilos com CSS usando classes e ids
-- [ ] Imagens em todas as páginas
-- [ ] Vídeo inserido
-- [ ] Menu de navegação funcional
-- [ ] Links internos e externos funcionando
-- [ ] Cada integrante com pelo menos 2 commits
-- [ ] Projeto publicado no GitHub Pages
-- [ ] README completo com informações e links
-
----
+🔗 [Acesse aqui](https://SEU_USUARIO.github.io/NOME_DO_REPOSITORIO/)  
