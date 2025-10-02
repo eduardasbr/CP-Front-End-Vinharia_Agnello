@@ -89,6 +89,10 @@ input{
 #input-message{
     width: 993px;
     height: 192px;
+    border-radius: 10px;
+    background: #D7D7D7;
+    border-style: none;
+    padding: 10px;
 }
 
 button{

@@ -43,4 +43,4 @@ A seguir, uma visão geral das páginas do projeto:
 
 O site da **Vinheria Agnello** também está disponível através do GitHub Pages:  
 
-🔗 [Acesse aqui](https://SEU_USUARIO.github.io/NOME_DO_REPOSITORIO/)  
+🔗 [Acesse aqui](https://eduardasbr.github.io/CP-Front-End-Vinharia_Agnello/)  
