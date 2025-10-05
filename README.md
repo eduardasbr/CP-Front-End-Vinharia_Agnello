@@ -1,8 +1,8 @@
-# 🍷Vinheria Agnello🍷
+# 🍷Vinharia Agnello🍷
 
-# 🍷 Caso da Vinheria Agnello  
+# 🍷 Caso da Vinharia Agnello  
 
-A **Vinheria Agnello** é um caso fictício desenvolvido para fins acadêmicos, inspirado em uma vinheria tradicional de São Paulo com mais de 15 anos de história.  
+A **Vinharia Agnello** é um caso fictício desenvolvido para fins acadêmicos, inspirado em uma vinharia tradicional de São Paulo com mais de 15 anos de história.  
 O desafio central é a transformação digital do negócio, trazendo a experiência única e personalizada de atendimento da loja física para o mundo do **e-commerce**.  
 
 📌 **Principais pontos do case:**  
@@ -15,7 +15,7 @@ O desafio central é a transformação digital do negócio, trazendo a experiên
 
 ## 📂 Estrutura do Projeto
 
-O site da **Vinheria Agnello** foi pensado para oferecer uma experiência digital completa, mantendo a tradição e o atendimento personalizado da loja física.  
+O site da **Vinharia Agnello** foi pensado para oferecer uma experiência digital completa, mantendo a tradição e o atendimento personalizado da loja física.  
 A seguir, uma visão geral das páginas do projeto:
 
 - 🏠 **Página Inicial**  
@@ -41,6 +41,6 @@ A seguir, uma visão geral das páginas do projeto:
 
 ## 🌐 Acesse o Projeto Online  
 
-O site da **Vinheria Agnello** também está disponível através do GitHub Pages:  
+O site da **Vinharia Agnello** também está disponível através do GitHub Pages:  
 
 🔗 [Acesse aqui](https://eduardasbr.github.io/CP-Front-End-Vinharia_Agnello/)  
