@@ -9,7 +9,7 @@ main {
 
 form {
     border-radius: 30px;
-    background: #722F37;
+    background: linear-gradient(120deg, #8a4a52 0%, #802313 30%, #791f29 70%, #8b3d2f 100%);;
     width: 1200px;
     height: 911px;
     padding:100px;
@@ -17,6 +17,7 @@ form {
     flex-direction: column;
     gap: 10px;
     margin-bottom: 130px;
+    animation: rotate 1s 1 ease-out;
 }
 
 h1 {
@@ -38,16 +39,21 @@ input {
     width: 527px;
     height: 70px;
     border-radius: 10px;
-    background: #D7D7D7;
+    background: #EFDFBB;
     border-style: none;
     padding: 10px;
 }
 
-#input-message {
+.inputText:focus {
+    border: outset 4px #2e2e2e;
+    box-shadow: 6px 8px 10px black;
+}
+
+textarea {
     width: 993px;
     height: 192px;
     border-radius: 10px;
-    background: #D7D7D7;
+    background: #EFDFBB;
     border-style: none;
     padding: 10px;
 }
@@ -67,4 +73,18 @@ button {
 .store-img {
     border-radius: 15px;
     margin-bottom: 100px;
+    border: #722F37 8px solid;
+    border-radius: 10px;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(180deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
