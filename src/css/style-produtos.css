@@ -7,17 +7,23 @@
 .main-products-page h1 {
     margin-left: 108px;
     margin-top: 80px;
-    margin-bottom: 86px;
-
+    margin-bottom: 44px;
     color: #722F37;
     font-size: 64px;
     font-weight: 700;
 }
 
+#product-desc {
+    border: #722F37 8px solid;
+    border-radius: 20px;
+    font-size: 35px;
+    margin: 0px 150px 44px 150px;
+    padding: 1%;
+}
+
 .main-products-page h2 {
     margin-left: 108px;
     margin-bottom: 75px;
-
     color: #000;
     font-size: 32px;
     font-weight: 600;
@@ -43,6 +49,9 @@
     gap: 24px;
     padding: 19px;
     border-radius: 20px;
+    animation: slide ease-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 
 .card img {
@@ -68,9 +77,26 @@
     height: 61px;
     border-radius: 20px;
     background: #2F2F32;
-    border-style: none;
+    border: black solid 2px;
     cursor: pointer;
     color: #FFF;
     font-size: 24px;
     font-weight: 600;
+}
+
+.card button:hover {
+    background-color: #505058;
+    border: rgb(49, 47, 47) solid 2px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translate(var(--slide-x, 0), var(--slide-y, 0));
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }

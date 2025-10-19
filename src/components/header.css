@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background-color: #722F37;
     width: 100%;
@@ -26,6 +30,16 @@ header li {
     padding: 10px 20px;
 }
 
+header li:hover {
+    background-color: #77310c;
+    border: rgb(63, 63, 63) solid 5px;
+}
+
+header li:active {
+    background-color: #8f5232;
+    border: rgb(114, 113, 113) solid 5px;
+}
+
 header a {
     color:#EFDFBB;
     font-size: 36px;
@@ -34,6 +48,6 @@ header a {
 }
 
 main {
-    background-color: #EFDFBB;
     height: auto;
+    background: linear-gradient(135deg, #EFDFBB 0%, #F1D6A8 35%, #e4bc85 70%, #e4a96a 100%);
 }

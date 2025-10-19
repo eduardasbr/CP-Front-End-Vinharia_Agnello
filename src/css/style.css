@@ -91,10 +91,16 @@ p {
     width: 800px;
     font-size: 46px;
     color: #3b181c;
+    animation: slide ease-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 
 video {
     width: 800px;
     border-radius: 10px;
     border: 6px solid #722F37;
+    animation: slide ease-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
