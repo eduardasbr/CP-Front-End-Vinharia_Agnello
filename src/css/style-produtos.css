@@ -19,6 +19,7 @@
     font-size: 35px;
     margin: 0px 150px 44px 150px;
     padding: 1%;
+    animation: slide 2s 1 ease-in-out;
 }
 
 .main-products-page h2 {
@@ -87,6 +88,7 @@
 .card button:hover {
     background-color: #505058;
     border: rgb(49, 47, 47) solid 2px;
+    transform: scale(1.02);
 }
 
 @keyframes slide {

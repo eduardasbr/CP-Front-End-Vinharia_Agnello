@@ -25,9 +25,7 @@ h1 {
     text-align: center;
     background-color: #BA545E;
     color: black;
-    animation-name: aparecer;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation: aparecer 3s infinite ease-in-out;
 }
 
 @keyframes aparecer {
