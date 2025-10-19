@@ -49,4 +49,5 @@ header a {
 
 main {
     height: auto;
+    background: linear-gradient(135deg, #EFDFBB 0%, #F1D6A8 35%, #e4bc85 70%, #e4a96a 100%);
 }
