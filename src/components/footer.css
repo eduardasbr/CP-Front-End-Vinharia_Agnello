@@ -4,6 +4,8 @@ footer {
     display: flex;
     padding: 90px 70px;
     gap: 60px;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 footer h2 {
@@ -24,7 +26,8 @@ footer p {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 50%;
+    max-width: 50%;
+    overflow-wrap: break-word;
 }
 
 .footer-right {

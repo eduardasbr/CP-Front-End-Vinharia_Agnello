@@ -31,9 +31,12 @@ img {
 }
 
 #slogan {
+    display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     height: 90px;
-    font-size: 60px;
+    font-size: 40px;
     color: #EFDFBB;
 }
 
