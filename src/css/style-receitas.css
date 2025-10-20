@@ -127,7 +127,7 @@ main ol {
 .checklist li input[type="checkbox"]:checked + span {
   text-decoration: line-through;
   color: #777;
-  transition: 0.3s;
+  transition: 1s;
 }
 
 #recipeTwo {
@@ -147,6 +147,26 @@ main ol {
     margin-left: 50px;
 }
 
-h6 {
-    padding-bottom: 50px;
+#position {
+    all: unset;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 35px;
+    color: #722F37;
+    padding: 10px;
+}
+
+section p {
+    padding-bottom: 30px;
+    font-size: 20px; 
+    margin-left: 40px;
+    margin-top: 13px;
+}
+
+section p a:visited { 
+    color: purple;
+}
+
+h3 {
+    
 }
