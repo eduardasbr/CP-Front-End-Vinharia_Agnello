@@ -20,12 +20,13 @@ h1 {
 .modopreparo{
     width: 280px;
     border: #722F37 solid 4px;
-    margin-left: 20px;
     border-radius: 20px;
     text-align: center;
     background-color: #BA545E;
     color: black;
     animation: aparecer 3s infinite ease-in-out;
+    margin-top: 20px;
+    margin-left: 55px;
 }
 
 @keyframes aparecer {
@@ -54,14 +55,15 @@ main img:hover {
 
 h2 {
     padding: 10px;
-    font-size: 32px;
-    margin-top: 10px;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 50px;
 }
 
 main ul {
-    padding: 15px;
-    margin: 20px;
-    font-size: 32px;
+    padding: 10px;
+    margin: 0px 10px 0px 50px;
+    font-size: 28px;
     flex-direction: column;
 }
 
@@ -69,8 +71,63 @@ main ol {
     list-style-type: decimal;
     padding: 30px;
     margin: 10px;
+    margin-left: 50px;
     font-size: 32px;
     padding-bottom: 30px;
+}
+
+.checklist {
+  list-style: none;
+  counter-reset: item;
+  padding: 0;
+}
+
+.checklist li {
+  counter-increment: item;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  font-size: 25px;
+}
+
+.checklist li input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #BA545E;
+  border-radius: 4px;
+  background: linear-gradient(145deg, #9e5058, #BA545E);
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.checklist li input[type="checkbox"]:checked {
+  background: #BA545E;
+}
+
+.checklist li input[type="checkbox"]:checked::after {
+  content: "✔";
+  position: absolute;
+  top: -2px;
+  left: 3px;
+  color: white;
+  font-size: 14px;
+}
+
+.checklist li::before {
+  content: counter(item) ".";
+  color: #BA545E;
+  font-weight: bold;
+  margin-left: 6px;
+}
+
+.checklist li input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
+  color: #777;
+  transition: 0.3s;
 }
 
 #recipeTwo {
