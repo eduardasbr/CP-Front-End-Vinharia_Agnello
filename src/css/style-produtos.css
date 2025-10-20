@@ -43,7 +43,7 @@
 .card {
     width: 450px;
     height: 572px;
-    background-color: #722F37;
+    background: linear-gradient(120deg, #722F37 0%, #4d0808 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
