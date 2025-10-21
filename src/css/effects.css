@@ -1,0 +1,99 @@
+header li:hover {
+    background-color: #77310c;
+    border: rgb(63, 63, 63) solid 5px;
+    transform: translateY(-10px);
+}
+
+header li:active {
+    background-color: #8f5232;
+    border: rgb(114, 113, 113) solid 5px;
+}
+
+video:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,1.5);
+}
+
+section p a:visited { 
+    color: purple;
+}
+
+.recipe:hover {
+  transform: scale(1.15);
+  box-shadow: 0 8px 20px rgba(0,0,0,1.5);
+}
+
+.inputText:focus {
+    border: outset 4px #2e2e2e;
+    box-shadow: 6px 8px 10px black;
+}
+
+.card button:hover {
+    background-color: #505058;
+    border: rgb(49, 47, 47) solid 2px;
+    transform: scale(1.02);
+}
+
+.checklist li input[type="checkbox"]:checked {
+  background: #BA545E;
+}
+
+.checklist li input[type="checkbox"]:checked::after {
+  content: "✔";
+  position: absolute;
+  top: -2px;
+  left: 3px;
+  color: white;
+  font-size: 14px;
+}
+
+.checklist li::before {
+  content: counter(item) ".";
+  color: #BA545E;
+  font-weight: bold;
+  margin-left: 6px;
+}
+
+.checklist li input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
+  color: #777;
+  transition: 1s;
+}
+
+@keyframes slide {
+    0% {
+        transform: translate(var(--slide-x, 0), var(--slide-y, 0));
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(180deg);
+        opacity: 0;
+    }
+
+    65% {
+        opacity: 0.2;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes show {
+    0%, 100% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+}

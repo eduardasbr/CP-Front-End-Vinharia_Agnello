@@ -1,15 +1,16 @@
 h1 {
-    color: #722F37;
+    color: linear-gradient(160deg, #460a0a 0%, #722F37 50%, #4d0808 100%);
     font-style: bold;
     align-content: center;
     font-size: 64px;
     padding: 35px;
     text-align: center;
+    animation: show 6s 1 ease-in;
 }
 
 h2 {
     color: #EFDFBB;
-    font-size: 32px
+    font-size: 32px;
 }
 
 h3 {
@@ -20,7 +21,7 @@ h3 {
 .div-owners {
     color: #EFDFBB;  
     padding: 50px;
-    background-color: #722F37;
+    background: linear-gradient(160deg, #460a0a 0%, #722F37 50%, #4d0808 100%);
     text-align: center;
     width: 500px;
     height: 500px;
@@ -43,11 +44,14 @@ h3 {
 .div-aboutOwners{
     color: #EFDFBB;  
     padding: 50px;
-    background-color: #722F37;
+    background: linear-gradient(160deg, #460a0a 0%, #722F37 50%, #4d0808 100%);
     width: 1000px;
     height: 450px;
     border-radius: 10px;
     margin: 10px;
+    animation: slide ease-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 
 .div-allEmployees{
@@ -62,7 +66,7 @@ h3 {
 }
 
 .div-employees{
-    background-color: #722F37;
+    background: linear-gradient(160deg, #460a0a 0%, #722F37 50%, #4d0808 100%);
     width: 1100px;
     height: 800px;
     border-radius: 10px;
@@ -72,7 +76,7 @@ h3 {
 .div-aboutEmployees{
     color: #EFDFBB;  
     padding: 50px;
-    background-color: #722F37;
+    background: linear-gradient(160deg, #460a0a 0%, #722F37 50%, #4d0808 100%);
     width: 1000px;
     height: 450x;
     border-radius: 10px;

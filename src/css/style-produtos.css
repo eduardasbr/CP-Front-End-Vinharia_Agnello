@@ -84,21 +84,3 @@
     font-size: 24px;
     font-weight: 600;
 }
-
-.card button:hover {
-    background-color: #505058;
-    border: rgb(49, 47, 47) solid 2px;
-    transform: scale(1.02);
-}
-
-@keyframes slide {
-    0% {
-        transform: translate(var(--slide-x, 0), var(--slide-y, 0));
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}

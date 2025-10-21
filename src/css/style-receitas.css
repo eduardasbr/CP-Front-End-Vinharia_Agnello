@@ -17,21 +17,16 @@ h1 {
    -webkit-background-clip: text;
   }
 
-.modopreparo{
+.modopreparo {
     width: 280px;
     border: #722F37 solid 4px;
     border-radius: 20px;
     text-align: center;
     background-color: #BA545E;
     color: black;
-    animation: aparecer 3s infinite ease-in-out;
+    animation: show 3s infinite ease-in-out;
     margin-top: 20px;
     margin-left: 55px;
-}
-
-@keyframes aparecer {
-    0%, 100% { opacity: 0}
-    50% { opacity: 1}
 }
 
 #recipeOne {
@@ -46,11 +41,6 @@ main img {
   box-shadow: 0 4px 10px rgba(0,0,0,1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin: 30px 20px 0px 40px;
-}
-
-main img:hover {
-  transform: scale(1.15);
-  box-shadow: 0 8px 20px rgba(0,0,0,1.5);
 }
 
 h2 {
@@ -104,32 +94,6 @@ main ol {
   transition: all 0.2s ease;
 }
 
-.checklist li input[type="checkbox"]:checked {
-  background: #BA545E;
-}
-
-.checklist li input[type="checkbox"]:checked::after {
-  content: "✔";
-  position: absolute;
-  top: -2px;
-  left: 3px;
-  color: white;
-  font-size: 14px;
-}
-
-.checklist li::before {
-  content: counter(item) ".";
-  color: #BA545E;
-  font-weight: bold;
-  margin-left: 6px;
-}
-
-.checklist li input[type="checkbox"]:checked + span {
-  text-decoration: line-through;
-  color: #777;
-  transition: 1s;
-}
-
 #recipeTwo {
     display: flex;
     flex-direction: column;
@@ -161,12 +125,4 @@ section p {
     font-size: 20px; 
     margin-left: 40px;
     margin-top: 13px;
-}
-
-section p a:visited { 
-    color: purple;
-}
-
-h3 {
-    
 }

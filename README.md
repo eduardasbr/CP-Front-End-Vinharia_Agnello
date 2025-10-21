@@ -37,10 +37,11 @@ A seguir, uma visão geral das páginas do projeto:
 
 - **Eduarda da Silva Brito**  
 - **Gustavo Castilho Gonçalves**  
-- **Lucca Ghiraldi Urso**  
+- **Lucca Ghiraldi Urso**
+- **Gustavo Moretim Canzi**
 
 ## 🌐 Acesse o Projeto Online  
 
 O site da **Vinharia Agnello** também está disponível através do GitHub Pages:  
 
-🔗 [Acesse aqui](https://eduardasbr.github.io/CP-Front-End-Vinharia_Agnello/)  
+🔗 [Acesse aqui](https://eduardasbr.github.io/CP-Front-End-Vinharia_Agnello/) 

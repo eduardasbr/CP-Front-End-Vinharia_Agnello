@@ -17,7 +17,7 @@ form {
     flex-direction: column;
     gap: 10px;
     margin-bottom: 130px;
-    animation: rotate 1s 1 ease-out;
+    animation: rotate 1s 1 ease-in-out;
 }
 
 h1 {
@@ -42,11 +42,6 @@ input {
     background: #EFDFBB;
     border-style: none;
     padding: 10px;
-}
-
-.inputText:focus {
-    border: outset 4px #2e2e2e;
-    box-shadow: 6px 8px 10px black;
 }
 
 textarea {
@@ -75,16 +70,4 @@ button {
     margin-bottom: 100px;
     border: #722F37 8px solid;
     border-radius: 10px;
-}
-
-@keyframes rotate {
-    0% {
-        transform: rotate(180deg);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
 }

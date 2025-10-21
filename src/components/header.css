@@ -31,17 +31,6 @@ header li {
     transition: transform 0.3s ease-in-out;
 }
 
-header li:hover {
-    background-color: #77310c;
-    border: rgb(63, 63, 63) solid 5px;
-    transform: translateY(-10px);
-}
-
-header li:active {
-    background-color: #8f5232;
-    border: rgb(114, 113, 113) solid 5px;
-}
-
 header a {
     color:#EFDFBB;
     font-size: 36px;
@@ -51,5 +40,5 @@ header a {
 
 main {
     height: auto;
-    background: linear-gradient(135deg, #EFDFBB 0%, #F1D6A8 35%, #e4bc85 70%, #e4a96a 100%);
+    background: linear-gradient(135deg, #ecb469 0%, #d3bf9c 35%, #d8b788 70%, #e4a96a 100%);
 }
