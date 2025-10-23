@@ -31,7 +31,33 @@ A seguir, uma visão geral das páginas do projeto:
   Conta a história da família Agnello, seus funcionários e a tradição de mais de 15 anos no mundo dos vinhos.  
 
 - ✉️ **Página de Contato**  
-  Formulário dedicado ao envio de dúvidas, sugestões e feedbacks, aproximando ainda mais os clientes da vinheria.  
+  Formulário dedicado ao envio de dúvidas, sugestões e feedbacks, aproximando ainda mais os clientes da vinheria.
+
+## ✨ Efeitos Visuais  
+
+O site da **Vinharia Agnello** conta com uma série de efeitos visuais criados com **pseudo-classes**, **pseudo-elementos** e **animações CSS**, que tornam a navegação mais fluida, interativa e elegante — refletindo o cuidado e a sofisticação da marca.  
+
+### 🎨 Pseudo-classes  
+As pseudo-classes foram utilizadas para criar interações sutis com o usuário:  
+- `:hover` — aplicada em **cards**, **botões**, **vídeos** e **imagens**, produzindo efeitos de **zoom**, **elevação** e **mudança de cor** ao passar o mouse.  
+- `:focus` — usada em **campos de texto**, destacando o elemento ativo com **bordas em relevo** e **sombra**.  
+- `:visited` — altera a cor dos **links já visitados**, reforçando a navegação intuitiva.  
+- `:checked` — aplicada em **checkboxes**, exibindo marcações personalizadas e alterando o estilo do texto selecionado.  
+
+### 🧩 Pseudo-elementos  
+Os pseudo-elementos foram usados para adicionar detalhes visuais sem necessidade de elementos extras no HTML:  
+- `::before` — numera automaticamente os itens de checklist, usando o contador CSS e a cor característica da marca.  
+- `::after` — adiciona o ícone “✔” aos checkboxes marcados, indicando visualmente a seleção do usuário.  
+
+### 🎞️ Animações e Transições  
+Foram aplicadas animações suaves e transições para dar mais dinamismo à interface:  
+- **Transições (`transition`)** garantem efeitos fluídos em transformações de escala, sombra e posição.  
+- **Animações (`@keyframes`)** personalizadas:  
+  - `slide` — cria um efeito de **entrada deslizante** com aumento gradual da opacidade.  
+  - `rotate` — adiciona **rotação e transição de opacidade**, trazendo movimento aos elementos.  
+  - `show` — alterna a **visibilidade** de componentes, criando um efeito de piscar ou destaque.  
+
+Esses efeitos foram pensados para reforçar a **experiência do usuário** e transmitir a sensação de **requinte e modernidade**, em harmonia com a identidade visual da Vinharia Agnello.  
 
 ## 👥 Integrantes do Projeto
 
