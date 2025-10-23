@@ -60,3 +60,7 @@ footer img {
     height: 43px;
     margin-top: 3%;
 }
+
+footer a:hover{
+    color:#ac9767
+}

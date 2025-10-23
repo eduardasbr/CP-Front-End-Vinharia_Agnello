@@ -1,12 +1,7 @@
 header li:hover {
-    background-color: #77310c;
-    border: rgb(63, 63, 63) solid 5px;
-    transform: translateY(-10px);
-}
-
-header li:active {
-    background-color: #8f5232;
-    border: rgb(114, 113, 113) solid 5px;
+    background-color: #4e1d02;
+    /* border: rgb(63, 63, 63) solid 5px; */
+    transform: translateY(-7px);
 }
 
 video:hover {
@@ -16,6 +11,15 @@ video:hover {
 
 section p a:visited { 
     color: purple;
+}
+
+.img-gamma{
+    animation: ease-in-out 1s;
+}
+
+.img-gamma:hover{
+    transform: translateY(-10px);
+    filter: saturate(200%);
 }
 
 .recipe:hover {
